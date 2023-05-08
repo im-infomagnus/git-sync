@@ -1,4 +1,4 @@
-FROM alpine
+FROM datamachines/git-lfs
 
 LABEL "repository"="http://github.com/wei/git-sync"
 LABEL "homepage"="http://github.com/wei/git-sync"
