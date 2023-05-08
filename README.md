@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
-        uses: wei/git-sync@v3
+        uses: valtech-sd/git-sync@v3
         with:
           source_repo: "source_org/repository"
           source_branch: "main"
