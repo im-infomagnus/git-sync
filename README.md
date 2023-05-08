@@ -1,3 +1,5 @@
+This repo was forked from [wei/git-sync](https://github.com/wei/git-sync) to add git-lfs support
+
 # Git Sync
 
 A GitHub Action for syncing between two independent repositories using **force push**.
