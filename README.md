@@ -1,4 +1,4 @@
-This repo was forked from [wei/git-sync](https://github.com/wei/git-sync) to add git-lfs support
+This repo was forked from [wei/git-sync](https://github.com/wei/git-sync) to add git-lfs support by using a recent version of Alpine Linux.
 
 # Git Sync
 
@@ -9,7 +9,6 @@ A GitHub Action for syncing between two independent repositories using **force p
 - Sync branches between two GitHub repositories
 - Sync branches to/from a remote repository
 - GitHub action can be triggered on a timer or on push
-- To sync with current repository, please checkout [Github Repo Sync](https://github.com/marketplace/actions/github-repo-sync)
 
 ## Usage
 
@@ -108,7 +107,11 @@ $ docker run --rm -e "SSH_PRIVATE_KEY=$(cat ~/.ssh/id_rsa)" $(docker build -q .)
 
 ## Author
 
+Original Author:
 [Wei He](https://github.com/wei) _github@weispot.com_
+
+Fork Author:
+[Valtech SD](https://github.com/valtech-sd) _us.san_diego_engineering@valtech.com_
 
 ## License
 

@@ -1,10 +1,10 @@
-FROM datamachines/git-lfs
+FROM alpine:3.18
 
-LABEL "repository"="http://github.com/wei/git-sync"
-LABEL "homepage"="http://github.com/wei/git-sync"
-LABEL "maintainer"="Wei He <github@weispot.com>"
+LABEL "repository"="https://github.com/valtech-sd/git-sync"
+LABEL "homepage"="https://github.com/valtech-sd/git-sync"
+LABEL "maintainer"="us.san_diego_engineering@valtech.com"
 
-RUN apk add --no-cache git openssh-client && \
+RUN apk add --no-cache git git-lfs openssh-client && \
   echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
 
 ADD *.sh /
