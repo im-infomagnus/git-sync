@@ -49,3 +49,6 @@ if [[ -n "$DESTINATION_SSH_PRIVATE_KEY" ]]; then
 fi
 
 git push destination "${SOURCE_BRANCH}:${DESTINATION_BRANCH}" -f
+
+# Push all LFS items also
+git lfs push --all destination "${DESTINATION_BRANCH}"
