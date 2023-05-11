@@ -51,6 +51,6 @@ fi
 git push destination "${SOURCE_BRANCH}:${DESTINATION_BRANCH}" -f
 
 # Fetch all LFS items
-git lfs fetch --all
+git lfs fetch --all origin "${SOURCE_BRANCH}"
 # Push all LFS items to the remote
 git lfs push --all destination "${DESTINATION_BRANCH}"
