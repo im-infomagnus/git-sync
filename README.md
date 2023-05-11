@@ -9,6 +9,7 @@ A GitHub Action for syncing between two independent repositories using **force p
 - Sync branches between two GitHub repositories
 - Sync branches to/from a remote repository
 - GitHub action can be triggered on a timer or on push
+- Support for GIT LFS (PULL ALL from source then PUSH ALL to destination)
 
 ## Usage
 
