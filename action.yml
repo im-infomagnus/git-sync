@@ -1,5 +1,5 @@
 name: Git Sync LFS Action
-author: Wei He <github@weispot.com>
+author: Valtech-SD <us.san_diego_engineering@valtech.com>
 description: 🔃  Sync between two independent repositories
 branding:
   icon: 'git-branch'
