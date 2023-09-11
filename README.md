@@ -11,6 +11,10 @@ A GitHub Action for syncing between two independent repositories using **force p
 - GitHub action can be triggered on a timer or on push (branches and tags)
 - Support for GIT LFS (PULL ALL from source then PUSH ALL to destination)
 
+## Quick Setup Step-by-Step
+
+Please see the [SSH Step-by-Step Guide](README-SSH-Step-by-Step-Guide.md) for step-by-step instructions using SSH.
+
 ## Usage
 
 > Always make a full backup of your repo (`git clone --mirror`) before using this action.
