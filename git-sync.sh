@@ -60,4 +60,4 @@ git push destination "${SOURCE_BRANCH}:${DESTINATION_BRANCH}" -f
 
 echo ">>> Pushing all LFS items..."
 # Push all LFS items to the remote
-git lfs push --all destination "${DESTINATION_BRANCH}" -q
+git lfs push --all destination "${DESTINATION_BRANCH}" --no-verify
